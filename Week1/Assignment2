@@ -1,0 +1,31 @@
+Assignment2: IDE Selection Choose a Python Integrated Development Environment (IDE) from the following options:
+Visual Studio Code (VS Code) or Jupyter Notebook. Install the selected IDE on your computer.
+
+Installing Visual Studio Code (VS Code)
+
+	1.	Download VS Code:
+	    	Visit the Visual Studio Code website.
+	        Download the installer for your operating system (Windows, macOS, or Linux).
+	2.	Install VS Code:
+		    Run the downloaded installer.
+		    Follow the installation instructions provided by the setup wizard.
+	3.	Install Python Extension:
+		    Open VS Code.
+		    Click on the Extensions icon in the Activity Bar on the side of the window or press Ctrl+Shift+X.
+		    Search for “Python” and install the Python extension by Microsoft.
+	4.	Set Up Python Interpreter:
+		    Open the Command Palette by pressing Ctrl+Shift+P.
+		    Type “Python: Select Interpreter” and select the Python interpreter you want to use.
+
+Installing Jupyter Notebook
+
+	1.	Install Anaconda:
+		    Visit the Anaconda website.
+	        Download the Anaconda installer for your operating system (Windows, macOS, or Linux).
+	2.	Install Anaconda:
+		    Run the downloaded installer.
+		    Follow the installation instructions provided by the setup wizard.
+	    	Anaconda comes with Jupyter Notebook pre-installed.
+	3.	Launch Jupyter Notebook:
+		    Open Anaconda Navigator from your applications.
+		    Click on the Jupyter Notebook icon to launch it.

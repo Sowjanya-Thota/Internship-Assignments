@@ -1,0 +1,101 @@
+Assignment6:Install a Python library of your choice within your Colab notebook (e.g., NumPy, Pandas, Matplotlib). Write code to demonstrate the usage of the installed library. Perform a basic operation or visualization. Invite a classmate or friend to collaborate on your Colab notebook. Provide their email address to send an invitation. Collaborate on a simple Python code project or data analysis task within the notebook. Save your Colab notebook to your Google Drive. Share the saved notebook with your instructor or a peer, allowing them to view or comment on your work.
+
+
+1. **Open Google Colab and Create a New Notebook**:
+   - Visit [Google Colab](https://colab.research.google.com/).
+   - Click on `File` > `New notebook` to create a new notebook.
+
+2. **Install a Python Library**:
+   - In the first code cell, install a Python library of your choice (e.g., Pandas) using the `!pip install` command:
+     ```python
+     !pip install pandas
+     ```
+
+3. **Write Code to Demonstrate the Usage of the Installed Library**:
+   - Add a new code cell and write code to perform a basic operation using the installed library. For example, with Pandas, you can create a DataFrame and perform some basic data analysis:
+     ```python
+     import pandas as pd
+
+     # Create a simple DataFrame
+     data = {
+         'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+         'Age': [24, 27, 22, 32, 29],
+         'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+     }
+
+     df = pd.DataFrame(data)
+     print("DataFrame:")
+     print(df)
+
+     # Perform a basic operation - calculate the average age
+     average_age = df['Age'].mean()
+     print("\nAverage Age:", average_age)
+     ```
+
+4. **Invite a Classmate or Friend to Collaborate**:
+   - Click on the `Share` button in the top-right corner of the Colab notebook.
+   - Enter the email address of your classmate or friend and click `Send`. For example, you might invite someone with the email `classmate@example.com`.
+
+5. **Collaborate on a Simple Python Code Project or Data Analysis Task**:
+   - Work together with your classmate to enhance the notebook. You could add data visualizations using Matplotlib or perform additional data analysis.
+   - Example code to add a Matplotlib visualization:
+     ```python
+     import matplotlib.pyplot as plt
+
+     # Plotting the Age distribution
+     plt.figure(figsize=(10, 5))
+     plt.bar(df['Name'], df['Age'], color='skyblue')
+     plt.xlabel('Name')
+     plt.ylabel('Age')
+     plt.title('Age Distribution of Individuals')
+     plt.show()
+     ```
+
+6. **Save Your Colab Notebook to Google Drive**:
+   - Click on `File` > `Save a copy in Drive` to save your notebook to your Google Drive.
+
+7. **Share the Saved Notebook**:
+   - Go to your Google Drive and locate the saved notebook.
+   - Right-click on the notebook and select `Share`.
+   - Enter the email address of your instructor or peer to allow them to view or comment on your work. Make sure to set the appropriate permissions (view or comment).
+
+### Example Code and Output
+
+Here's the complete code for the basic DataFrame operation and visualization:
+
+```python
+# Install Pandas
+!pip install pandas
+
+# Import Pandas
+import pandas as pd
+
+# Create a simple DataFrame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+    'Age': [24, 27, 22, 32, 29],
+    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+}
+
+df = pd.DataFrame(data)
+print("DataFrame:")
+print(df)
+
+# Perform a basic operation - calculate the average age
+average_age = df['Age'].mean()
+print("\nAverage Age:", average_age)
+
+# Install Matplotlib
+!pip install matplotlib
+
+# Import Matplotlib
+import matplotlib.pyplot as plt
+
+# Plotting the Age distribution
+plt.figure(figsize=(10, 5))
+plt.bar(df['Name'], df['Age'], color='skyblue')
+plt.xlabel('Name')
+plt.ylabel('Age')
+plt.title('Age Distribution of Individuals')
+plt.show()
+```

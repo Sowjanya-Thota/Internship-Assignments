@@ -1,0 +1,111 @@
+Assignment2:
+GitHub UsageSetting Up GitHub: Create an account on GitHub if you don'thave one. Explain the steps you took to set up your GitHub account. Repository Creation: Create a new public GitHub repository named "my-first-repo." Provide a link to your repository.
+Repository Cloning: Clone the "my-first-repo" repository to your local machine. Provide a screenshot of your terminal showing the clone command.
+Collaborative Workflow: Invite a classmate or friend to collaborate on your repository. Ask them to fork your repository, make a change, and create a pull request. Accept their pull request, and explain the collaborative process.
+
+### Setting Up GitHub
+
+**Steps to Set Up Your GitHub Account:**
+
+1. **Visit GitHub's Website:**
+   Go to [GitHub](https://github.com).
+
+2. **Sign Up:**
+
+   - Click on the "Sign up" button in the upper-right corner.
+   - Fill in your details:
+     - **Username:** Choose a unique username.
+     - **Email Address:** Enter a valid email address.
+     - **Password:** Create a strong password.
+
+3. **Verify Your Account:**
+
+   - GitHub might ask you to solve a puzzle to verify you are human.
+   - After solving the puzzle, click "Create account."
+
+4. **Email Verification:**
+
+   - GitHub will send a verification email to the provided email address.
+   - Open the email and click on the verification link.
+
+5. **Set Up Profile:**
+   - After verification, you can set up your profile by adding a profile picture and bio.
+   - Complete the onboarding questions if presented.
+
+### Repository Creation
+
+1. **Log In to GitHub:**
+   Log in to your GitHub account.
+
+2. **Create a New Repository:**
+
+   - Click on the "+" icon in the upper-right corner and select "New repository."
+   - Fill in the details:
+     - **Repository Name:** my-first-repo
+     - **Description:** (Optional) A brief description of your repository.
+     - **Public/Private:** Select "Public."
+     - **Initialize this repository with a README:** Check this box.
+   - Click "Create repository."
+
+3. **Repository Link:**
+   Here is the link to your newly created repository: [my-first-repo](https://github.com/your-username/my-first-repo) (Replace "your-username" with your actual GitHub username).
+
+### Repository Cloning
+
+1. **Clone the Repository to Your Local Machine:**
+   - Open your terminal or command prompt.
+   - Run the following command:
+
+```sh
+git clone https://github.com/your-username/my-first-repo.git
+```
+
+2. **Screenshot:**
+   Ensure your terminal shows the clone command and successful cloning message.
+
+### Collaborative Workflow
+
+1. **Invite a Collaborator:**
+
+   - Go to your repository page.
+   - Click on the "Settings" tab.
+   - In the left sidebar, click on "Manage access."
+   - Click on the "Invite a collaborator" button.
+   - Enter the GitHub username or email of your classmate or friend and click "Add."
+
+2. **Forking the Repository (Classmate's Actions):**
+
+   - Your classmate should go to your repository page.
+   - Click on the "Fork" button in the upper-right corner.
+   - This will create a copy of your repository in their GitHub account.
+
+3. **Making a Change (Classmate's Actions):**
+
+   - Your classmate should clone their forked repository to their local machine.
+   - Make a change to the repository, such as editing the README file.
+   - Commit the change and push it to their forked repository.
+
+4. **Creating a Pull Request (Classmate's Actions):**
+
+   - Go to the original repository (your repository) page.
+   - Click on the "Pull requests" tab.
+   - Click on the "New pull request" button.
+   - Compare the changes and create a pull request by providing a title and description.
+   - Click "Create pull request."
+
+5. **Accepting the Pull Request (Your Actions):**
+   - Go to the "Pull requests" tab in your repository.
+   - Click on the new pull request created by your classmate.
+   - Review the changes.
+   - If everything looks good, click the "Merge pull request" button.
+   - Click "Confirm merge."
+
+### Explanation of the Collaborative Process
+
+The collaborative process involves the following steps:
+
+- **Forking:** Your collaborator forks (copies) your repository to their own GitHub account. This allows them to work on their copy without affecting the original repository.
+- **Cloning:** They clone their forked repository to their local machine to make changes.
+- **Changes and Commits:** After making changes, they commit these changes to their local repository and push them to their forked repository on GitHub.
+- **Pull Request:** They create a pull request from their forked repository to the original repository. This notifies you of the proposed changes.
+- **Review and Merge:** You review the pull request and merge it if the changes are acceptable. This incorporates the changes into the original repository, completing the collaborative workflow.

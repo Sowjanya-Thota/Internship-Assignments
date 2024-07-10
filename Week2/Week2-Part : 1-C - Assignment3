@@ -1,0 +1,41 @@
+Assignment3:
+Version Control with GitBranching: Create a new branch in your Git repository called "feature-branch." Make changes to a file in this branch and commit them. Provide a screenshot of the branch creation and commit process.Merging: Merge the "feature-branch" into the main branch. Explain the merge process and resolve any conflicts if they occur.
+
+### Branching
+
+1. **Create a New Branch:**
+
+   ```bash
+   git checkout -b feature-branch
+   ```
+
+2. **Make Changes to a File and Commit:**
+   ```bash
+   echo "Some changes" >> README.md
+   git add README.md
+   git commit -m "Made changes in feature-branch"
+   ```
+
+### Merging
+
+1. **Merge the Branch:**
+
+   ```bash
+   git checkout main
+   git merge feature-branch
+   ```
+
+2. **Explain the Merge Process:**
+
+   - **Checkout Main Branch:** Switch to the main branch using `git checkout main`.
+   - **Merge Feature Branch:** Use `git merge feature-branch` to merge changes from the feature-branch into the main branch.
+   - **Resolve Conflicts:** If there are conflicts, Git will prompt you to resolve them. Open the conflicted files, resolve the conflicts, stage the changes, and commit the resolution.
+
+3. **Resolve Conflicts (if any):**
+   - Open the conflicted file(s) in a text editor.
+   - Resolve the conflicts by choosing the appropriate changes.
+   - Stage and commit the resolved changes:
+     ```bash
+     git add <resolved-file>
+     git commit -m "Resolved merge conflicts"
+     ```

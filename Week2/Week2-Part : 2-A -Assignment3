@@ -1,0 +1,70 @@
+Assignment3:
+Python Intermediate TopicsSelect Topics: Choose three intermediate topics from the list you find particularly interesting (e.g., Lists, Strings, Functions, Python Modules, etc.).
+In-depth Study: Dive deeper into each selected topic by reading relevant sections of the Python Official Documentation and one other resource from the list above. Summarize the key points and provide code examples for each.
+
+#### Selected Topics:
+
+1. **List Comprehensions**
+2. **Object-Oriented Programming (OOP)**
+3. **File Handling**
+
+#### In-depth Study:
+
+### 1. List Comprehensions
+
+**Python Official Documentation:**
+
+- List comprehensions provide a concise way to create lists in Python. They consist of an expression followed by a for clause, then zero or more if or for clauses. Here's a basic syntax:
+
+  ```python
+  squares = [x**2 for x in range(10)]
+  ```
+
+  This creates a list `squares` containing squares of numbers from 0 to 9.
+
+**Additional Resource (Real Python, TutorialsPoint, etc.):**
+
+- Real Python's tutorial on list comprehensions expands on the Python documentation, providing practical examples and best practices for using list comprehensions effectively in Python programming.
+
+### 2. Object-Oriented Programming (OOP)
+
+**Python Official Documentation:**
+
+- Python supports object-oriented programming with classes and objects. Key concepts include inheritance, polymorphism, encapsulation, and method overriding. Example:
+
+  ```python
+  class Shape:
+      def __init__(self, color):
+          self.color = color
+
+      def area(self):
+          pass  # Area calculation specific to each shape
+
+  class Circle(Shape):
+      def __init__(self, color, radius):
+          super().__init__(color)
+          self.radius = radius
+
+      def area(self):
+          return 3.14 * self.radius * self.radius
+  ```
+
+**Additional Resource (Real Python, TutorialsPoint, etc.):**
+
+- Real Python's OOP tutorial provides in-depth explanations with practical examples of designing and implementing classes, handling inheritance, and leveraging OOP principles for building robust Python applications.
+
+### 3. File Handling
+
+**Python Official Documentation:**
+
+- Python provides functions and methods to manipulate files and directories. Basic operations include opening, reading, writing, and closing files. Example:
+
+  ```python
+  with open('example.txt', 'r') as f:
+      content = f.read()
+      print(content)
+  ```
+
+**Additional Resource (Real Python, TutorialsPoint, etc.):**
+
+- TutorialsPoint's Python File Handling tutorial complements the Python documentation by offering practical exercises and examples demonstrating various file operations, error handling, and best practices in Python file management.

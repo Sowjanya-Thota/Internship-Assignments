@@ -1,0 +1,115 @@
+Assignment6:
+Command Line Basics
+Command Line Navigation: Demonstrate how to navigate the file system using basic command-line commands (e.g., cd, ls, pwd) in your preferred command-line interface (Windows Command Prompt or Linux Terminal).File Manipulation: Create, copy, move, and delete files and directories usingcommand-line commands. Provide screenshots of each operation.
+
+
+### Command Line Navigation
+
+#### Windows Command Prompt
+
+1. **Navigate to a Directory:**
+   - Use `cd` command followed by the directory path.
+     ```
+     cd Desktop
+     ```
+
+2. **List Files and Directories:**
+   - Use `dir` command to list files and directories.
+     ```
+     dir
+     ```
+
+3. **Print Current Directory:**
+   - Use `cd` without any arguments.
+     ```
+     cd
+     ```
+
+#### Linux Terminal
+
+1. **Navigate to a Directory:**
+   - Use `cd` command followed by the directory path.
+     ```
+     cd Documents
+     ```
+
+2. **List Files and Directories:**
+   - Use `ls` command to list files and directories.
+     ```
+     ls
+     ```
+
+3. **Print Current Directory:**
+   - Use `pwd` command.
+     ```
+     pwd
+     ```
+
+### File Manipulation
+
+#### Creating, Copying, Moving, and Deleting Files and Directories
+
+#### Windows Command Prompt
+
+1. **Create a Directory:**
+   - Use `mkdir` command followed by the directory name.
+     ```
+     mkdir NewFolder
+     ```
+
+2. **Copy a File:**
+   - Use `copy` command followed by source and destination paths.
+     ```
+     copy file.txt NewFolder\
+     ```
+
+3. **Move a File:**
+   - Use `move` command followed by source and destination paths.
+     ```
+     move file.txt NewFolder\
+     ```
+
+4. **Delete a File:**
+   - Use `del` command followed by the file name.
+     ```
+     del file.txt
+     ```
+
+5. **Delete a Directory:**
+   - Use `rmdir` command followed by the directory name.
+     ```
+     rmdir NewFolder /s /q
+     ```
+
+#### Linux Terminal
+
+1. **Create a Directory:**
+   - Use `mkdir` command followed by the directory name.
+     ```
+     mkdir NewFolder
+     ```
+
+2. **Copy a File:**
+   - Use `cp` command followed by source and destination paths.
+     ```
+     cp file.txt NewFolder/
+     ```
+
+3. **Move a File:**
+   - Use `mv` command followed by source and destination paths.
+     ```
+     mv file.txt NewFolder/
+     ```
+
+4. **Delete a File:**
+   - Use `rm` command followed by the file name.
+     ```
+     rm file.txt
+     ```
+
+5. **Delete a Directory:**
+   - Use `rm` command with `-r` flag for recursive deletion.
+     ```
+     rm -r NewFolder
+     ```
+
